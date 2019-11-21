@@ -1,0 +1,104 @@
+{
+  "view": {
+    "prefix": "view",
+    "body": "<view>$2</view>$3",
+    "description": "视图容器"
+  },
+  "view-class": {
+    "prefix": "viewc",
+    "body": "<view class=\"$1\">$2</view>$3",
+    "description": "视图容器+class"
+  },
+  "icon": {
+    "prefix": "icon",
+    "body": "<icon type=\"$1\" size=\"${2:16}\" color=\"$3\" />",
+    "description": "图标"
+  },
+  "text": {
+    "prefix": "text",
+    "body": "<text>$1</text>$2",
+    "description": "文本标签"
+  },
+  "text-class": {
+    "prefix": "textc",
+    "body": "<text class=\"$1\">$2</text>$3",
+    "description": "文本标签+class"
+  },
+  "textarea": {
+    "prefix": "textarea",
+    "body": "<textarea placeholder=\"${1:placeholder}\" />"
+  },
+  "template": {
+    "prefix": "template",
+    "body": "<template name=\"$1\">$2</template>",
+    "description": "文本标签+class"
+  },
+  "template-is": {
+    "prefix": "template-is",
+    "body": "<template is=\"$1\" data=\"{{${2:...item}}}\" />",
+    "description": "文本标签+class"
+  },
+  "button": {
+    "prefix": "button",
+    "body": "<button type=\"${1:primary}\" loading=\"${2:loading}\" disabled=\"${3:disabled}\">${4:Button}</button>",
+    "description": "按钮"
+  },
+  "form": {
+    "prefix": "form",
+    "body": "<form bindsubmit=\"$1\" bindreset=\"$2\">$3</form>$4",
+    "description": "表单"
+  },
+  "input": {
+    "prefix": "input",
+    "body": "<input type=\"$1\" placeholder=\"$2\" ${3:auto-focus} ${4:password} />$5",
+    "description": "自动聚焦的input"
+  },
+  "navigator": {
+    "prefix": "navigator",
+    "body": "<navigator url=\"$1\" open-type=\"${2:navigate}\" hover-class=\"${3:className}\">$4</navigator>",
+    "description": "导航"
+  },
+  "image": {
+    "prefix": "image",
+    "body": "<image src=\"$1\" mode=\"aspectFill\" />",
+    "description": "图片"
+  },
+  "id": {
+    "prefix": "id",
+    "body": "id=\"${1:id}\""
+  },
+  "class": {
+    "prefix": "class",
+    "body": "class=\"${1:className}\""
+  },
+  "a:for": {
+    "prefix": "afor",
+    "body": "a:for=\"{{${1:list}}}\"",
+    "description": "列表渲染"
+  },
+  "a:if": {
+    "prefix": "aif",
+    "body": "a:if=\"{{condition}}\"",
+    "description": "条件渲染if"
+  },
+  "a:elif": {
+    "prefix": "aelif",
+    "body": "a:elif=\"{{condition}}\"",
+    "description": "条件渲染else if"
+  },
+  "a:else": {
+    "prefix": "aelse",
+    "body": "a:else",
+    "description": "条件渲染else"
+  },
+  "onTap": {
+    "prefix": "onTap",
+    "body": "onTap=\"handleTap${1:XXX}\"",
+    "description": "绑定冒泡事件：该事件会向父节点传递。"
+  },
+  "catchTap": {
+    "prefix": "catchTap",
+    "body": "catchTap=\"handleTap${1:XXX}\"",
+    "description": "绑定非冒泡事件：该事件不会向父节点传递"
+  }
+}
