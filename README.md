@@ -3,6 +3,12 @@
 
 一款针对支付宝小程序的axml语法高亮显示的VSCode插件。
 
+## 主要功能
+1. 语法高亮显示
+2. 代码片段
+3. 事件提示
+4. 使VSCode自动识别acss为css文件
+
 
 ![(Screenrecording展示)](assets/ScreenRecording.gif)
 
