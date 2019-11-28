@@ -16,14 +16,9 @@
 
 为了更舒服的开发小程序，建议搭配下面vscode配置⬇️。会将emmet的功能注入到.axml文件中
 
+将下面两个字段添加到setting.json里即可。
 ```JSON
 {
-    "window.zoomLevel": 1,
-    "editor.tabSize": 2,
-    "files.associations": {
-        "*.acss": "css",
-        "*.axml": "axml"
-    },
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
         "axml": "html",
@@ -31,3 +26,7 @@
     }
 }
 ```
+
+**(setting.json在VSCode的设置里，搜索setting.json即可找到)**
+
+![](assets/setting.jpg)
