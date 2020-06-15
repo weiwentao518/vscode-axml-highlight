@@ -27,8 +27,7 @@
 {
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
-        "axml": "html",
-        "html": "axml"
+        "axml": "html"
     }
 }
 ```
