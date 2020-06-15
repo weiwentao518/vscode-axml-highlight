@@ -7,7 +7,7 @@
 	"icon": "assets/antapp.png",
 	"displayName": "axml-highlight",
 	"description": "针对支付宝小程序的axml语法高亮显示",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "Va",
 	"repository": {
 		"type": "git",
